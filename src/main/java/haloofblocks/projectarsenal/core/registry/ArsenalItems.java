@@ -31,7 +31,7 @@ public class ArsenalItems
     public static final RegistryObject<Item> GOLDEN_HAWK = registerGun("golden_hawk", false);
     public static final RegistryObject<Item> M_TWO_FOUR_NINE = registerGun("m249", false);
     public static final RegistryObject<Item> MAXIM_NINE = registerGun("maxim9", false);
-    public static final RegistryObject<Item> MOSSOU = registerGun("mossou", false);
+    public static final RegistryObject<Item> STEVENS_OVER_UNDER = registerGun("m555ou", false);
     public static final RegistryObject<Item> MP_FIVE_A_FOUR = registerGun("mp5a4", false);
     public static final RegistryObject<Item> VAL = registerGun("val", false);
     public static final RegistryObject<Item> SHRIKE = registerGun("shrike", true);

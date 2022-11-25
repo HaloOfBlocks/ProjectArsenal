@@ -1,4 +1,4 @@
-// 1.19	2022-11-25T12:02:01.529736	Recipes
+// 1.19	2022-11-25T12:44:32.6858905	Recipes
 6271bfc3fa3eca24c980e4e7ca6a625c9eddc27b data/projectarsenal/advancements/recipes/projectarsenal/aa12.json
 2abe11c3bf1defbedc1f791831c3f01c6a1e9b6f data/projectarsenal/advancements/recipes/projectarsenal/auto9.json
 89513abaa87338ee7d653105ab09625aaf71f2e2 data/projectarsenal/advancements/recipes/projectarsenal/desert_eagle.json
@@ -9,10 +9,10 @@ d41bfc0d8014517cdecd883ac0d5e4cbb6ea1ba1 data/projectarsenal/advancements/recipe
 4008d81022cf3e10abfeb02475324ca18bd9e57f data/projectarsenal/advancements/recipes/projectarsenal/golden_hawk.json
 6db3b17c1f3e936ecd5705bb51677ce58f16d8be data/projectarsenal/advancements/recipes/projectarsenal/m1911.json
 7027ce55f7706b298a2bcab4bd3611e0718ae67a data/projectarsenal/advancements/recipes/projectarsenal/m249.json
+5f63823bf4aa82857e42b24cb44c6346dd72a760 data/projectarsenal/advancements/recipes/projectarsenal/m555ou.json
 62232a2aa7538d8d966e0f81ef282a8bdf817fa7 data/projectarsenal/advancements/recipes/projectarsenal/m9.json
 91dcaf53f5f85a1175b75bc6ca4af9a7bc73f57b data/projectarsenal/advancements/recipes/projectarsenal/markxix.json
 b1285bf4336dc79b00b1d8c1765693e89b3077d7 data/projectarsenal/advancements/recipes/projectarsenal/maxim9.json
-9472445f1f1bf749e80885556df7792d000d42c2 data/projectarsenal/advancements/recipes/projectarsenal/mossou.json
 4a217e3fc7182643636a3652f7b5260e49819207 data/projectarsenal/advancements/recipes/projectarsenal/mp5a4.json
 e3f12acd43ee08686ceb1697f81e7bc5b75dd8e9 data/projectarsenal/advancements/recipes/projectarsenal/p250.json
 af42087452bf3227d0907f5552d868079ce1e33d data/projectarsenal/advancements/recipes/projectarsenal/prismatic.json
@@ -34,10 +34,10 @@ a3b3c912b5834b7e48c4b6b74d90c368ecd3ab21 data/projectarsenal/recipes/glock18.jso
 f3aea840f4aee468740819c040876fc905fa854b data/projectarsenal/recipes/golden_hawk.json
 b42ab9a602ebb19385202244388a5beb2f1cbf52 data/projectarsenal/recipes/m1911.json
 782100d84eabceb7ca2719fe3f14639c3cb38e7f data/projectarsenal/recipes/m249.json
+6be6bab16372a6a2275d0e858a7c67cf899d73c7 data/projectarsenal/recipes/m555ou.json
 1a1693b6a506f4cb32279b0fb668bc264af30f4b data/projectarsenal/recipes/m9.json
 e45323d98ee37c0af1603bbcd4023323ea79ea46 data/projectarsenal/recipes/markxix.json
 d6b20e26f3d8095f175aa284712e5308d9d8906c data/projectarsenal/recipes/maxim9.json
-306e883e54a5fa9c7d8874e648104f5c5a850adc data/projectarsenal/recipes/mossou.json
 b8068f3692de7386da8be07fa15bcd691ad60039 data/projectarsenal/recipes/mp5a4.json
 6f9a8c3cb151aa5f2d611307644439e91405eb00 data/projectarsenal/recipes/p250.json
 35531cb40dcd27e47f6f684dd136b87754616beb data/projectarsenal/recipes/prismatic.json

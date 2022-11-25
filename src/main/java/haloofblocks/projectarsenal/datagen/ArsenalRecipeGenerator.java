@@ -153,7 +153,7 @@ public class ArsenalRecipeGenerator extends RecipeProvider
                 .addCriterion("has_fire_charge", has(Items.FIRE_CHARGE))
                 .addCriterion("has_gunpowder", has(Tags.Items.GUNPOWDER))
                 .build(consumer);
-        WorkbenchRecipeBuilder.crafting(ArsenalItems.MOSSOU.get())
+        WorkbenchRecipeBuilder.crafting(ArsenalItems.STEVENS_OVER_UNDER.get())
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 32))
                 .addIngredient(WorkbenchIngredient.of(Items.ACACIA_PLANKS, 48))
                 .addIngredient(WorkbenchIngredient.of(Items.FIRE_CHARGE, 1))

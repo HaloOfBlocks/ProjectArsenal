@@ -23,7 +23,7 @@ public class ArsenalSounds
     public static final RegistryObject<SoundEvent> DP_TWENTY_SEVEN = register("item.dp27.fire");
     public static final RegistryObject<SoundEvent> GOLDEN_HAWK = register("item.goldenhawk.fire");
     public static final RegistryObject<SoundEvent> M_TWO_FOUR_NINE = register("item.m249.fire");
-    public static final RegistryObject<SoundEvent> MOSSOU = register("item.mossou.fire");
+    public static final RegistryObject<SoundEvent> STEVENS_OVER_UNDER = register("item.m555ou.fire");
     public static final RegistryObject<SoundEvent> MP_FIVE_A_FOUR = register("item.mp5a4.fire");
     public static final RegistryObject<SoundEvent> INTEGRAL_SUPPRESSION = register("item.integral_suppression.fire");
     public static final RegistryObject<SoundEvent> SHRIKE_FIRE = register("item.shrike.fire");

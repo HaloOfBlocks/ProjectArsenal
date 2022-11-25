@@ -53,15 +53,15 @@
     ],
     "subtitle": "subtitle.projectarsenal.regular_fire"
   },
-  "item.markxix.fire": {
+  "item.m555ou.fire": {
     "sounds": [
-      "projectarsenal:item/markxix"
+      "projectarsenal:item/m555ou"
     ],
     "subtitle": "subtitle.projectarsenal.regular_fire"
   },
-  "item.mossou.fire": {
+  "item.markxix.fire": {
     "sounds": [
-      "projectarsenal:item/mossou"
+      "projectarsenal:item/markxix"
     ],
     "subtitle": "subtitle.projectarsenal.regular_fire"
   },

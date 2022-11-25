@@ -71,7 +71,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "projectarsenal:mossou"
+        "recipe": "projectarsenal:m555ou"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -89,7 +89,7 @@
   ],
   "rewards": {
     "recipes": [
-      "projectarsenal:mossou"
+      "projectarsenal:m555ou"
     ]
   }
 }
