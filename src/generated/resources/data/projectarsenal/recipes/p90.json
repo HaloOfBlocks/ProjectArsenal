@@ -1,0 +1,28 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 48,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 48,
+      "item": "minecraft:white_concrete"
+    },
+    {
+      "count": 2,
+      "tag": "forge:ingots/netherite"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "count": 10,
+      "tag": "forge:gunpowder"
+    }
+  ],
+  "result": {
+    "item": "projectarsenal:p90"
+  }
+}

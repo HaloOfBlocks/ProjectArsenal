@@ -263,6 +263,18 @@ public class ArsenalRecipeGenerator extends RecipeProvider
                 .addCriterion("has_iron_horse_armor", has(Items.IRON_HORSE_ARMOR))
                 .addCriterion("has_netherite_block", has(Tags.Items.STORAGE_BLOCKS_NETHERITE))
                 .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ArsenalItems.P_NINETY.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 48))
+                .addIngredient(WorkbenchIngredient.of(Items.WHITE_CONCRETE, 48))
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_NETHERITE, 2))
+                .addIngredient(WorkbenchIngredient.of(Items.FIRE_CHARGE, 1))
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.GUNPOWDER, 10))
+                .addCriterion("has_iron_ingots", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_white_concrete", has(Items.GREEN_CONCRETE))
+                .addCriterion("has_ingots_netherite", has(Tags.Items.INGOTS_NETHERITE))
+                .addCriterion("has_fire_charge", has(Items.FIRE_CHARGE))
+                .addCriterion("has_gunpowder", has(Tags.Items.GUNPOWDER))
+                .build(consumer);
 
         // ===== UNDER BARRELS ===== //
         WorkbenchRecipeBuilder.crafting(ArsenalItems.VERTICAL_GRIP.get())
