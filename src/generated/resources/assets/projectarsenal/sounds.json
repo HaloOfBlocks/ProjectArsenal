@@ -11,15 +11,15 @@
     ],
     "subtitle": "subtitle.projectarsenal.regular_fire"
   },
-  "item.deserteagle.fire": {
+  "item.cz75.fire": {
     "sounds": [
-      "projectarsenal:item/deserteagle"
+      "projectarsenal:item/cz75"
     ],
     "subtitle": "subtitle.projectarsenal.regular_fire"
   },
-  "item.diamondback.fire": {
+  "item.deserteagle.fire": {
     "sounds": [
-      "projectarsenal:item/diamondback"
+      "projectarsenal:item/deserteagle"
     ],
     "subtitle": "subtitle.projectarsenal.regular_fire"
   },
@@ -53,15 +53,15 @@
     ],
     "subtitle": "subtitle.projectarsenal.regular_fire"
   },
-  "item.m555ou.fire": {
-    "sounds": [
-      "projectarsenal:item/m555ou"
-    ],
-    "subtitle": "subtitle.projectarsenal.regular_fire"
-  },
   "item.markxix.fire": {
     "sounds": [
       "projectarsenal:item/markxix"
+    ],
+    "subtitle": "subtitle.projectarsenal.regular_fire"
+  },
+  "item.mossou.fire": {
+    "sounds": [
+      "projectarsenal:item/mossou"
     ],
     "subtitle": "subtitle.projectarsenal.regular_fire"
   },

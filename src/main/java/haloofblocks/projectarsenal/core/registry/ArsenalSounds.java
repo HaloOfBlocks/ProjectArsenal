@@ -23,7 +23,7 @@ public class ArsenalSounds
     public static final RegistryObject<SoundEvent> DP_TWENTY_SEVEN = register("item.dp27.fire");
     public static final RegistryObject<SoundEvent> GOLDEN_HAWK = register("item.goldenhawk.fire");
     public static final RegistryObject<SoundEvent> M_TWO_FOUR_NINE = register("item.m249.fire");
-    public static final RegistryObject<SoundEvent> STEVENS_OVER_UNDER = register("item.m555ou.fire");
+    public static final RegistryObject<SoundEvent> MOSSOU = register("item.mossou.fire");
     public static final RegistryObject<SoundEvent> MP_FIVE_A_FOUR = register("item.mp5a4.fire");
     public static final RegistryObject<SoundEvent> INTEGRAL_SUPPRESSION = register("item.integral_suppression.fire");
     public static final RegistryObject<SoundEvent> SHRIKE_FIRE = register("item.shrike.fire");
@@ -31,7 +31,7 @@ public class ArsenalSounds
     public static final RegistryObject<SoundEvent> P_TWO_FIFTY = register("item.p250.fire");
     public static final RegistryObject<SoundEvent> MARKXIX = register("item.markxix.fire");
     public static final RegistryObject<SoundEvent> M_NINETEEN_ELEVEN = register("item.m1911.fire");
-    public static final RegistryObject<SoundEvent> DIAMONDBACK = register("item.diamondback.fire");
+    public static final RegistryObject<SoundEvent> CZ_SEVEN_FIVE = register("item.cz75.fire");
     public static final RegistryObject<SoundEvent> PRISMATIC = register("item.prismatic.fire");
     public static final RegistryObject<SoundEvent> VECTOR = register("item.vector.fire");
     public static final RegistryObject<SoundEvent> VECTOR_SUPPRESSED = register("item.vector.suppressed");

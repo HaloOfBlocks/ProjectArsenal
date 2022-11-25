@@ -22,7 +22,7 @@
     "life": 10
   },
   "sounds": {
-    "fire": "projectarsenal:item.m555ou.fire",
+    "fire": "projectarsenal:item.mossou.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.shotgun.cock"
   },

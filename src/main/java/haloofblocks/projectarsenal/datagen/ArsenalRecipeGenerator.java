@@ -49,7 +49,7 @@ public class ArsenalRecipeGenerator extends RecipeProvider
                 .addCriterion("has_fire_charge", has(Items.FIRE_CHARGE))
                 .addCriterion("has_gunpowder", has(Tags.Items.GUNPOWDER))
                 .build(consumer);
-        WorkbenchRecipeBuilder.crafting(ArsenalItems.DIAMONDBACK.get())
+        WorkbenchRecipeBuilder.crafting(ArsenalItems.CZ_SEVEN_FIVE.get())
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 24))
                 .addIngredient(WorkbenchIngredient.of(Items.WHITE_CONCRETE, 32))
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.DUSTS_GLOWSTONE, 3))
@@ -83,7 +83,7 @@ public class ArsenalRecipeGenerator extends RecipeProvider
                 .addCriterion("has_fire_charge", has(Items.FIRE_CHARGE))
                 .addCriterion("has_gunpowder", has(Tags.Items.GUNPOWDER))
                 .build(consumer);
-        WorkbenchRecipeBuilder.crafting(ArsenalItems.GLOCK_EIGHTEEN.get())
+        WorkbenchRecipeBuilder.crafting(ArsenalItems.GLOCK_TWENTY_ONE.get())
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 32))
                 .addIngredient(WorkbenchIngredient.of(Items.WHITE_CONCRETE, 32))
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.GEMS_DIAMOND, 1))
@@ -153,7 +153,7 @@ public class ArsenalRecipeGenerator extends RecipeProvider
                 .addCriterion("has_fire_charge", has(Items.FIRE_CHARGE))
                 .addCriterion("has_gunpowder", has(Tags.Items.GUNPOWDER))
                 .build(consumer);
-        WorkbenchRecipeBuilder.crafting(ArsenalItems.STEVENS_OVER_UNDER.get())
+        WorkbenchRecipeBuilder.crafting(ArsenalItems.MOSSOU.get())
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 32))
                 .addIngredient(WorkbenchIngredient.of(Items.ACACIA_PLANKS, 48))
                 .addIngredient(WorkbenchIngredient.of(Items.FIRE_CHARGE, 1))

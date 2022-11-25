@@ -19,7 +19,7 @@
     "life": 40
   },
   "sounds": {
-    "fire": "projectarsenal:item.diamondback.fire",
+    "fire": "projectarsenal:item.cz75.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.pistol.cock",
     "silencedFire": "projectarsenal:item.vector.suppressed"

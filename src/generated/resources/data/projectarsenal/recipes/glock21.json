@@ -2,7 +2,7 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 24,
+      "count": 32,
       "tag": "forge:ingots/iron"
     },
     {
@@ -10,19 +10,19 @@
       "item": "minecraft:white_concrete"
     },
     {
-      "count": 3,
-      "tag": "forge:dusts/glowstone"
+      "count": 1,
+      "tag": "forge:gems/diamond"
     },
     {
       "count": 1,
       "item": "minecraft:fire_charge"
     },
     {
-      "count": 10,
+      "count": 20,
       "tag": "forge:gunpowder"
     }
   ],
   "result": {
-    "item": "projectarsenal:diamondback"
+    "item": "projectarsenal:glock21"
   }
 }
