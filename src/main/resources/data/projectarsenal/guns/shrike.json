@@ -3,11 +3,11 @@
     "auto": true,
     "rate": 2,
     "gripType": "cgm:two_handed",
-    "maxAmmo": 200,
-    "reloadAmount": 15,
-    "recoilAngle": 3.0,
-    "recoilKick": 1.75,
-    "recoilAdsReduction": 0.55,
+    "maxAmmo": 60,
+    "reloadAmount": 11,
+    "recoilAngle": 2.55,
+    "recoilKick": 1.8,
+    "recoilAdsReduction": 0.6,
     "alwaysSpread": true,
     "spread": 3.0
   },
@@ -15,7 +15,7 @@
     "item": "cgm:advanced_bullet",
     "visible": false,
     "gravity": true,
-    "damage": 10.0,
+    "damage": 11.0,
     "size": 1.0,
     "speed": 60.0,
     "life": 60
@@ -24,7 +24,7 @@
     "fire": "projectarsenal:item.shrike.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.assault_rifle.cock",
-    "silencedFire": "projectarsenal:item.shrike.suppressed"
+    "silencedFire": "projectarsenal:item.integral_suppression.fire"
   },
   "display": {
     "flash": {
@@ -35,24 +35,24 @@
   "modules": {
     "zoom": {
       "fovModifier": 0.8,
-      "yOffset": 12.20,
-      "zOffset": 3
+      "yOffset": 12.9,
+      "zOffset": -2
     },
     "attachments": {
       "scope": {
-        "yOffset": 11.85,
-        "zOffset": 3,
+        "yOffset": 10.6,
+        "zOffset": 11.2,
         "scale": 0.7
       },
       "barrel": {
-        "yOffset": 10.25,
-        "zOffset": -12.5,
+        "yOffset": 10.6,
+        "zOffset": -10.6,
         "scale": 0.5
       },
       "underBarrel": {
-        "yOffset": 10.0,
-        "zOffset": -3.0,
-        "scale": 1.0
+        "yOffset": 9.7,
+        "zOffset": 0,
+        "scale": 0.80
       }
     }
   }
