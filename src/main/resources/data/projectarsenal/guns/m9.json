@@ -1,6 +1,6 @@
 {
   "general": {
-    "rate": 3,
+    "rate": 4,
     "gripType": "cgm:one_handed",
     "maxAmmo": 10,
     "reloadAmount": 5,
@@ -13,7 +13,7 @@
   },
   "projectile": {
     "item": "cgm:basic_bullet",
-    "damage": 9.5,
+    "damage": 9.0,
     "size": 0.5,
     "speed": 50.0,
     "life": 50
@@ -26,8 +26,8 @@
   },
   "display": {
     "flash": {
-      "yOffset": 9.5,
-      "zOffset": -2.4
+      "yOffset": 9.325,
+      "zOffset": -1.75
     }
   },
   "modules": {
@@ -35,6 +35,13 @@
       "fovModifier": 0.6,
       "yOffset": 9.65,
       "zOffset": 1
+    },
+    "attachments": {
+      "barrel": {
+        "yOffset": 9.325,
+        "zOffset": -1,
+        "scale": 0.25
+      }
     }
   }
 }

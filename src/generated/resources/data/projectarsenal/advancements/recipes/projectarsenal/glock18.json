@@ -1,6 +1,16 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_diamond": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:gems/diamond"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_fire_charge": {
       "conditions": {
         "items": [
@@ -8,16 +18,6 @@
             "items": [
               "minecraft:fire_charge"
             ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_glowstone_dust": {
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:dusts/glowstone"
           }
         ]
       },
@@ -45,7 +45,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "projectarsenal:cz75"
+        "recipe": "projectarsenal:glock18"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -66,7 +66,7 @@
     [
       "has_iron_ingots",
       "has_white_concrete",
-      "has_glowstone_dust",
+      "has_diamond",
       "has_fire_charge",
       "has_gunpowder",
       "has_the_recipe"
@@ -74,7 +74,7 @@
   ],
   "rewards": {
     "recipes": [
-      "projectarsenal:cz75"
+      "projectarsenal:glock18"
     ]
   }
 }

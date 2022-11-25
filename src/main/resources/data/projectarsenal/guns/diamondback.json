@@ -19,9 +19,10 @@
     "life": 40
   },
   "sounds": {
-    "fire": "projectarsenal:item.cz75.fire",
+    "fire": "projectarsenal:item.diamondback.fire",
     "reload": "cgm:item.pistol.reload",
-    "cock": "cgm:item.pistol.cock"
+    "cock": "cgm:item.pistol.cock",
+    "silencedFire": "projectarsenal:item.vector.suppressed"
     
   },
   "display": {
@@ -35,6 +36,13 @@
       "fovModifier": 0.6,
       "yOffset": 9.7,
       "zOffset": 1
+    },
+    "attachments": {
+      "barrel": {
+        "yOffset": 9.4,
+        "zOffset": -1,
+        "scale": 0.25
+      }
     }
   }
 }

@@ -35,12 +35,12 @@ public class ArsenalItems
     public static final RegistryObject<Item> MP_FIVE_A_FOUR = registerGun("mp5a4", false);
     public static final RegistryObject<Item> VAL = registerGun("val", false);
     public static final RegistryObject<Item> SHRIKE = registerGun("shrike", true);
-    public static final RegistryObject<Item> GLOCK_TWENTY_ONE = registerGun("glock21", true);
+    public static final RegistryObject<Item> GLOCK_EIGHTEEN = registerGun("glock18", true);
     public static final RegistryObject<Item> P_TWO_FIFTY = registerGun("p250", true);
     public static final RegistryObject<Item> MARK_XIX = registerGun("markxix", false);
-    public static final RegistryObject<Item> PRISMATIC = registerGun("prismatic", true);
-    public static final RegistryObject<Item> M_NINETEEN_ELEVEN = registerGun("m1911", true);
-    public static final RegistryObject<Item> CZ_SEVEN_FIVE = registerGun("cz75", true);
+    public static final RegistryObject<Item> PRISMATIC = registerGun("prismatic", false);
+    public static final RegistryObject<Item> M_NINETEEN_ELEVEN = registerGun("m1911", false);
+    public static final RegistryObject<Item> DIAMONDBACK = registerGun("diamondback", true);
     public static final RegistryObject<Item> VECTOR = registerGun("vector", true);
     public static final RegistryObject<Item> M_NINE = registerGun("m9", false);
     public static final RegistryObject<Item> SCARH = registerGun("scarh", true);

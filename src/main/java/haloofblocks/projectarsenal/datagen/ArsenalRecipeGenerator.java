@@ -49,7 +49,7 @@ public class ArsenalRecipeGenerator extends RecipeProvider
                 .addCriterion("has_fire_charge", has(Items.FIRE_CHARGE))
                 .addCriterion("has_gunpowder", has(Tags.Items.GUNPOWDER))
                 .build(consumer);
-        WorkbenchRecipeBuilder.crafting(ArsenalItems.CZ_SEVEN_FIVE.get())
+        WorkbenchRecipeBuilder.crafting(ArsenalItems.DIAMONDBACK.get())
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 24))
                 .addIngredient(WorkbenchIngredient.of(Items.WHITE_CONCRETE, 32))
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.DUSTS_GLOWSTONE, 3))
@@ -83,7 +83,7 @@ public class ArsenalRecipeGenerator extends RecipeProvider
                 .addCriterion("has_fire_charge", has(Items.FIRE_CHARGE))
                 .addCriterion("has_gunpowder", has(Tags.Items.GUNPOWDER))
                 .build(consumer);
-        WorkbenchRecipeBuilder.crafting(ArsenalItems.GLOCK_TWENTY_ONE.get())
+        WorkbenchRecipeBuilder.crafting(ArsenalItems.GLOCK_EIGHTEEN.get())
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 32))
                 .addIngredient(WorkbenchIngredient.of(Items.WHITE_CONCRETE, 32))
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.GEMS_DIAMOND, 1))
@@ -97,11 +97,11 @@ public class ArsenalRecipeGenerator extends RecipeProvider
                 .build(consumer);
         WorkbenchRecipeBuilder.crafting(ArsenalItems.GOLDEN_HAWK.get())
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_GOLD, 64))
-                .addIngredient(WorkbenchIngredient.of(Tags.Items.GEMS_DIAMOND, 7))
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.GEMS_DIAMOND, 12))
                 .addIngredient(WorkbenchIngredient.of(Items.HEART_OF_THE_SEA, 1))
-                .addIngredient(WorkbenchIngredient.of(Items.SOUL_TORCH, 1))
+                .addIngredient(WorkbenchIngredient.of(Items.SOUL_TORCH, 3))
                 .addIngredient(WorkbenchIngredient.of(Items.GOLDEN_HORSE_ARMOR, 1))
-                .addIngredient(WorkbenchIngredient.of(Tags.Items.STORAGE_BLOCKS_NETHERITE, 1))
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.STORAGE_BLOCKS_NETHERITE, 2))
                 .addCriterion("has_gold_ingots", has(Tags.Items.INGOTS_GOLD))
                 .addCriterion("has_diamond", has(Tags.Items.GEMS_DIAMOND))
                 .addCriterion("has_heart_of_the_sea", has(Items.HEART_OF_THE_SEA))

@@ -11,15 +11,15 @@
     ],
     "subtitle": "subtitle.projectarsenal.regular_fire"
   },
-  "item.cz75.fire": {
-    "sounds": [
-      "projectarsenal:item/cz75"
-    ],
-    "subtitle": "subtitle.projectarsenal.regular_fire"
-  },
   "item.deserteagle.fire": {
     "sounds": [
       "projectarsenal:item/deserteagle"
+    ],
+    "subtitle": "subtitle.projectarsenal.regular_fire"
+  },
+  "item.diamondback.fire": {
+    "sounds": [
+      "projectarsenal:item/diamondback"
     ],
     "subtitle": "subtitle.projectarsenal.regular_fire"
   },

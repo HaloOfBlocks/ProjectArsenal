@@ -37,7 +37,7 @@ public class ArsenalSoundDefinitionsGenerator extends SoundDefinitionsProvider
         regularFire(ArsenalSounds.P_TWO_FIFTY.get(), "item/p250");
         regularFire(ArsenalSounds.MARKXIX.get(), "item/markxix");
         regularFire(ArsenalSounds.VECTOR.get(), "item/vector");
-        regularFire(ArsenalSounds.CZ_SEVEN_FIVE.get(), "item/cz75");
+        regularFire(ArsenalSounds.DIAMONDBACK.get(), "item/diamondback");
         regularFire(ArsenalSounds.M_NINETEEN_ELEVEN.get(), "item/m1911");
         regularFire(ArsenalSounds.PRISMATIC.get(), "item/prismatic");
         regularFire(ArsenalSounds.SCARH.get(), "item/scarh");
