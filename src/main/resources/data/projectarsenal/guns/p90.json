@@ -6,16 +6,16 @@
     "maxAmmo": 50,
     "reloadAmount": 10,
     "recoilAngle": 0.75,
-    "recoilKick": 0.5,
+    "recoilKick": 1.35,
     "recoilAdsReduction": 0.80,
     "alwaysSpread": true,
-    "spread": 8.0
+    "spread": 4.0
   },
   "projectile": {
     "item": "cgm:basic_bullet",
     "visible": false,
     "gravity": true,
-    "damage": 5.0,
+    "damage": 6.5,
     "size": 0.15,
     "speed": 20.0,
     "life": 30
