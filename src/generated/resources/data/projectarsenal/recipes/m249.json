@@ -14,12 +14,12 @@
       "tag": "forge:storage_blocks/iron"
     },
     {
-      "count": 32,
-      "item": "minecraft:green_concrete"
-    },
-    {
       "count": 3,
       "tag": "forge:ingots/netherite"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:fire_charge"
     }
   ],
   "result": {

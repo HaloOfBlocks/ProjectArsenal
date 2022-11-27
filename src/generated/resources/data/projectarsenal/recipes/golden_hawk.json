@@ -6,7 +6,7 @@
       "tag": "forge:ingots/gold"
     },
     {
-      "count": 12,
+      "count": 16,
       "tag": "forge:gems/diamond"
     },
     {
@@ -22,8 +22,8 @@
       "item": "minecraft:golden_horse_armor"
     },
     {
-      "count": 2,
-      "tag": "forge:storage_blocks/netherite"
+      "count": 1,
+      "item": "minecraft:nether_star"
     }
   ],
   "result": {

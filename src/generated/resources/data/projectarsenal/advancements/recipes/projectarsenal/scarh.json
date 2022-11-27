@@ -13,16 +13,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_gunpowder": {
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:gunpowder"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_iron_horse_armor": {
       "conditions": {
         "items": [
@@ -75,7 +65,6 @@
   "requirements": [
     [
       "has_iron_ingots",
-      "has_gunpowder",
       "has_redstone",
       "has_fire_charge",
       "has_iron_horse_armor",

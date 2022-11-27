@@ -6,16 +6,12 @@
       "tag": "forge:ingots/iron"
     },
     {
-      "count": 3,
+      "count": 17,
       "tag": "forge:gems/emerald"
     },
     {
       "count": 1,
       "item": "minecraft:fire_charge"
-    },
-    {
-      "count": 20,
-      "tag": "forge:gunpowder"
     }
   ],
   "result": {

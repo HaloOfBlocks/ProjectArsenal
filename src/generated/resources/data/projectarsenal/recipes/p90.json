@@ -10,16 +10,12 @@
       "item": "minecraft:white_concrete"
     },
     {
-      "count": 2,
+      "count": 1,
       "tag": "forge:ingots/netherite"
     },
     {
       "count": 1,
       "item": "minecraft:fire_charge"
-    },
-    {
-      "count": 10,
-      "tag": "forge:gunpowder"
     }
   ],
   "result": {

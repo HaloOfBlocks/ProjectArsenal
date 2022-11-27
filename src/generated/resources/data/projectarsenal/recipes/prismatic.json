@@ -14,10 +14,6 @@
       "item": "minecraft:fire_charge"
     },
     {
-      "count": 20,
-      "tag": "forge:gunpowder"
-    },
-    {
       "count": 1,
       "tag": "forge:ingots/netherite"
     }

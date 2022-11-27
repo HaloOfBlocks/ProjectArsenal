@@ -3,21 +3,21 @@
     "rate": 1,
     "auto": true,
     "gripType": "cgm:one_handed",
-    "maxAmmo": 24,
-    "reloadAmount": 12,
+    "maxAmmo": 20,
+    "reloadAmount": 10,
     "recoilAngle": 1.5,
-    "recoilKick": 1.3,
+    "recoilKick": 2.0,
     "recoilAdsReduction": 0.6,
     "projectileAmount": 1,
     "alwaysSpread": true,
-    "spread": 4.0
+    "spread": 5.0
   },
   "projectile": {
     "item": "cgm:basic_bullet",
-    "damage": 6.0,
+    "damage": 9.0,
     "size": 0.5,
-    "speed": 50.0,
-    "life": 50
+    "speed": 20.0,
+    "life": 20
   },
   "sounds": {
     "fire": "projectarsenal:item.auto9.fire",

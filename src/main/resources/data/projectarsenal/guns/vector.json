@@ -23,8 +23,7 @@
   "sounds": {
     "fire": "projectarsenal:item.vector.fire",
     "reload": "cgm:item.pistol.reload",
-    "cock": "cgm:item.assault_rifle.cock",
-    "silencedFire": "projectarsenal:item.vector.suppressed"
+    "cock": "cgm:item.assault_rifle.cock"
   },
   "display": {
     "flash": {

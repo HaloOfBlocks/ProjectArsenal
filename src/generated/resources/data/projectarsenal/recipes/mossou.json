@@ -6,8 +6,8 @@
       "tag": "forge:ingots/iron"
     },
     {
-      "count": 48,
-      "item": "minecraft:acacia_planks"
+      "count": 32,
+      "item": "minecraft:spruce_planks"
     },
     {
       "count": 1,
@@ -16,10 +16,6 @@
     {
       "count": 3,
       "item": "minecraft:firework_star"
-    },
-    {
-      "count": 20,
-      "tag": "forge:gunpowder"
     },
     {
       "count": 1,

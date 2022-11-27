@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_green_concrete": {
+    "has_fire_charge": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:green_concrete"
+              "minecraft:fire_charge"
             ]
           }
         ]
@@ -65,8 +65,8 @@
       "has_iron_ingots",
       "has_iron_nugget",
       "has_iron_block",
-      "has_green_concrete",
       "has_ingots_netherite",
+      "has_fire_charge",
       "has_the_recipe"
     ]
   ],

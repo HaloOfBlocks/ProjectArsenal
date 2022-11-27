@@ -5,9 +5,9 @@
     "gripType": "cgm:two_handed",
     "maxAmmo": 20,
     "reloadAmount": 2,
-    "recoilAngle": 5.0,
+    "recoilAngle": 3.5,
     "recoilKick": 1.5,
-    "recoilAdsReduction": 0.5,
+    "recoilAdsReduction": 0.7,
     "alwaysSpread": true,
     "spread": 2.0
   },
@@ -28,8 +28,20 @@
   "modules": {
     "zoom": {
       "fovModifier": 0.8,
-      "yOffset": 4.5,
+      "yOffset": 4.6,
 	"zOffset": 1.5
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 4,
+        "zOffset": 5,
+        "scale": 0.72
+      },
+      "underBarrel": {
+        "yOffset": 2.7,
+        "zOffset": 1,
+        "scale": 0.75
+      }
     }
   }
 }

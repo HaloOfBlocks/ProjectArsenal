@@ -21,10 +21,9 @@
     "life": 30
   },
   "sounds": {
-    "fire": "projectarsenal:item.shrike.suppressed",
+    "fire": "projectarsenal:item.p90.fire",
     "reload": "cgm:item.pistol.reload",
-    "cock": "cgm:item.assault_rifle.cock",
-    "silencedFire": "projectarsenal:item.vector.suppressed"
+    "cock": "cgm:item.assault_rifle.cock"
   },
   "display": {
     "flash": {

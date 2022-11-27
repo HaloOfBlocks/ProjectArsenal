@@ -18,10 +18,6 @@
       "item": "minecraft:firework_star"
     },
     {
-      "count": 20,
-      "tag": "forge:gunpowder"
-    },
-    {
       "count": 2,
       "tag": "forge:ingots/netherite"
     }

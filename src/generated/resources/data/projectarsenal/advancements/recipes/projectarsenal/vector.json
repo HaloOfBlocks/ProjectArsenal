@@ -13,16 +13,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_gunpowder": {
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:gunpowder"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_ingots_netherite": {
       "conditions": {
         "items": [
@@ -54,7 +44,7 @@
         "items": [
           {
             "items": [
-              "minecraft:green_concrete"
+              "minecraft:white_concrete"
             ]
           }
         ]
@@ -68,7 +58,6 @@
       "has_white_concrete",
       "has_ingots_netherite",
       "has_fire_charge",
-      "has_gunpowder",
       "has_the_recipe"
     ]
   ],

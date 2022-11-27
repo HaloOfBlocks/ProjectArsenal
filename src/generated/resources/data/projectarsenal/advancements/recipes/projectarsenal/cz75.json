@@ -23,16 +23,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_gunpowder": {
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:gunpowder"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_iron_ingots": {
       "conditions": {
         "items": [
@@ -68,7 +58,6 @@
       "has_white_concrete",
       "has_glowstone_dust",
       "has_fire_charge",
-      "has_gunpowder",
       "has_the_recipe"
     ]
   ],

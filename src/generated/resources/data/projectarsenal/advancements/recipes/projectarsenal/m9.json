@@ -1,6 +1,18 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_black_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_concrete"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_fire_charge": {
       "conditions": {
         "items": [
@@ -8,16 +20,6 @@
             "items": [
               "minecraft:fire_charge"
             ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_gunpowder": {
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:gunpowder"
           }
         ]
       },
@@ -44,7 +46,7 @@
     [
       "has_iron_ingots",
       "has_fire_charge",
-      "has_gunpowder",
+      "has_black_concrete",
       "has_the_recipe"
     ]
   ],

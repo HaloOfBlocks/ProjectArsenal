@@ -77,6 +77,12 @@
     ],
     "subtitle": "subtitle.projectarsenal.regular_fire"
   },
+  "item.p90.fire": {
+    "sounds": [
+      "projectarsenal:item/p90"
+    ],
+    "subtitle": "subtitle.projectarsenal.regular_fire"
+  },
   "item.prismatic.fire": {
     "sounds": [
       "projectarsenal:item/prismatic"

@@ -2,7 +2,7 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 40,
+      "count": 27,
       "tag": "forge:ingots/iron"
     },
     {
@@ -11,7 +11,7 @@
     },
     {
       "count": 20,
-      "tag": "forge:gunpowder"
+      "item": "minecraft:black_concrete"
     }
   ],
   "result": {

@@ -45,11 +45,13 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_netherite_block": {
+    "has_nether_star": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:storage_blocks/netherite"
+            "items": [
+              "minecraft:nether_star"
+            ]
           }
         ]
       },
@@ -81,7 +83,7 @@
       "has_heart_of_the_sea",
       "has_soul_torch",
       "has_golden_horse_armor",
-      "has_netherite_block",
+      "has_nether_star",
       "has_the_recipe"
     ]
   ],

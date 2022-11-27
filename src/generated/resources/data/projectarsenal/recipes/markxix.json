@@ -16,10 +16,6 @@
     {
       "count": 1,
       "item": "minecraft:fire_charge"
-    },
-    {
-      "count": 20,
-      "tag": "forge:gunpowder"
     }
   ],
   "result": {

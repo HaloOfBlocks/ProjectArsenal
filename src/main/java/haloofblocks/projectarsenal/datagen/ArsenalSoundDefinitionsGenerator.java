@@ -41,6 +41,7 @@ public class ArsenalSoundDefinitionsGenerator extends SoundDefinitionsProvider
         regularFire(ArsenalSounds.M_NINETEEN_ELEVEN.get(), "item/m1911");
         regularFire(ArsenalSounds.PRISMATIC.get(), "item/prismatic");
         regularFire(ArsenalSounds.SCARH.get(), "item/scarh");
+        regularFire(ArsenalSounds.P_NINETY.get(), "item/p90");
 
         // ===== SUPPRESSED FIRE ===== //
         suppressedFire(ArsenalSounds.SHRIKE_SUPPRESSED.get(), "item/shrike_suppressed");
