@@ -1,4 +1,4 @@
-![Banner](https://i.postimg.cc/02NvWc3q/projectarsenalbanner.png)
+![Banner](https://i.postimg.cc/prc93y5c/pa-banner2.png)
 
 [![CurseForge](http://cf.way2muchnoise.eu/full_683122_downloads.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/project-arsenal)
 [![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/HaloOfBlocks/ProjectArsenal)
