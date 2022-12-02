@@ -7,6 +7,7 @@ import com.mrcrayfish.guns.item.attachment.impl.Barrel;
 import com.mrcrayfish.guns.item.attachment.impl.UnderBarrel;
 import haloofblocks.projectarsenal.ProjectArsenal;
 import haloofblocks.projectarsenal.ProjectArsenalTab;
+import haloofblocks.projectarsenal.common.FireMode;
 import haloofblocks.projectarsenal.common.item.ArsenalGunItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
@@ -66,6 +67,11 @@ public class ArsenalItems
     private static RegistryObject<Item> registerGun(String name, boolean canColor)
     {
         return ITEMS.register(name, () -> new ArsenalGunItem(new Item.Properties().stacksTo(1).tab(ProjectArsenalTab.TAB), canColor));
+    }
+
+    private static RegistryObject<Item> registerGun(String name, FireMode fireMode, boolean canColor)
+    {
+        return ITEMS.register(name, () -> new ArsenalGunItem(fireMode, new Item.Properties().stacksTo(1).tab(ProjectArsenalTab.TAB), canColor));
     }
 
     /**

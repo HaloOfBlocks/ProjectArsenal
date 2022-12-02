@@ -2,6 +2,8 @@ package haloofblocks.projectarsenal.common.item;
 
 import com.mrcrayfish.guns.common.Gun;
 import com.mrcrayfish.guns.item.GunItem;
+import haloofblocks.projectarsenal.common.FireMode;
+import haloofblocks.projectarsenal.common.FireModes;
 import haloofblocks.projectarsenal.config.Config;
 import net.minecraft.ChatFormatting;
 import net.minecraft.nbt.CompoundTag;
@@ -19,11 +21,24 @@ import java.util.List;
 public class ArsenalGunItem extends GunItem
 {
     private final boolean canColor;
+    private final FireMode fireMode;
+    private FireModes selectedFireMode;
+
+    public ArsenalGunItem(@Nullable FireMode fireMode, Properties properties, boolean canColor)
+    {
+        super(properties);
+        this.fireMode = fireMode;
+        this.canColor = canColor;
+
+        if (hasFireMode())
+        {
+            this.selectedFireMode = fireMode.getFireModes().get(0);
+        }
+    }
 
     public ArsenalGunItem(Properties properties, boolean canColor)
     {
-        super(properties);
-        this.canColor = canColor;
+        this(null, properties, canColor);
     }
 
     @Override
@@ -54,9 +69,7 @@ public class ArsenalGunItem extends GunItem
             if (Config.CLIENT.gunTooltipInfo.showFireMode.get())
             {
                 String key = "info.projectarsenal.fire_mode";
-                Component semiAuto = Component.translatable(key + ".semi_auto").withStyle(ChatFormatting.WHITE);
-                Component fullAuto = Component.translatable(key + ".full_auto").withStyle(ChatFormatting.WHITE);
-                tooltip.add(index++, Component.translatable(key, modifiedGun.getGeneral().isAuto() ? fullAuto : semiAuto).withStyle(ChatFormatting.GRAY));
+                tooltip.add(index++, Component.translatable(key, fireModeComponent(stack)).withStyle(ChatFormatting.GRAY));
             }
 
             // Projectile Speed
@@ -79,6 +92,27 @@ public class ArsenalGunItem extends GunItem
         }
     }
 
+    private Component fireModeComponent(ItemStack stack)
+    {
+        String fireMode = null;
+
+        if (hasFireMode())
+        {
+            switch (getSelectedFireMode())
+            {
+                case SEMI_AUTOMATIC -> fireMode = "semi_auto";
+                case FULL_AUTOMATIC -> fireMode = "full_auto";
+                case SAFETY -> fireMode = "safety";
+            }
+        }
+        else
+        {
+            fireMode = getModifiedGun(stack).getGeneral().isAuto() ? "full_auto" : "semi_auto";
+        }
+
+        return Component.translatable("info.projectarsenal.fire_mode." + fireMode).withStyle(ChatFormatting.WHITE);
+    }
+
     @Override
     public boolean canColor(ItemStack stack)
     {
@@ -89,5 +123,28 @@ public class ArsenalGunItem extends GunItem
     public boolean isFoil(ItemStack stack)
     {
         return super.isFoil(stack) && Config.CLIENT.enableGunEnchantmentGlint.get();
+    }
+
+    /**
+     * @return If {@link FireMode} has been set for this gun
+     */
+    public boolean hasFireMode()
+    {
+        return this.fireMode != null;
+    }
+
+    public FireMode getFireMode()
+    {
+        return this.fireMode;
+    }
+
+    public FireModes getSelectedFireMode()
+    {
+        return this.selectedFireMode;
+    }
+
+    public void setSelectedFireMode(FireModes selectedFireMode)
+    {
+        this.selectedFireMode = selectedFireMode;
     }
 }

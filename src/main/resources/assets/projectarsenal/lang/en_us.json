@@ -37,6 +37,7 @@
   "info.projectarsenal.fire_mode": "Fire Mode: %s",
   "info.projectarsenal.fire_mode.semi_auto": "Semi-Automatic",
   "info.projectarsenal.fire_mode.full_auto": "Full-Automatic",
+  "info.projectarsenal.fire_mode.safety": "Safety",
   "info.projectarsenal.projectile_speed": "Projectile Speed: %s",
   "info.projectarsenal.projectile_spread": "Projectile Spread: %s",
   "info.projectarsenal.non_dyeable": "This gun cannot be dyed",
@@ -44,6 +45,10 @@
   "container.projectarsenal.arsenal_workbench": "Arsenal Workbench",
 
   "gui.projectarsenal.arsenal_workbench.show_assemble": "Show Assemble",
+
+  "key.categories.projectarsenal": "Project Arsenal",
+
+  "key.projectarsenal.select_fire_mode": "Select next Fire Mode",
 
   "itemGroup.projectarsenal": "Project Arsenal"
 }
