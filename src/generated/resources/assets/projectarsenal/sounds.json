@@ -107,6 +107,12 @@
     ],
     "subtitle": "subtitle.projectarsenal.suppressed_fire"
   },
+  "item.switch_fire_mode": {
+    "sounds": [
+      "projectarsenal:item/switch_fire_mode"
+    ],
+    "subtitle": "subtitle.projectarsenal.switch_fire_mode"
+  },
   "item.vector.fire": {
     "sounds": [
       "projectarsenal:item/vector"

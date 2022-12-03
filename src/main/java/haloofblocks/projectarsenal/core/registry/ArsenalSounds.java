@@ -17,6 +17,7 @@ public class ArsenalSounds
      */
     public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, ProjectArsenal.MOD_ID);
 
+    // ===== GUNFIRE SOUNDS ===== //
     public static final RegistryObject<SoundEvent> AA_TWELVE = register("item.aa12.fire");
     public static final RegistryObject<SoundEvent> AUTO_NINE = register("item.auto9.fire");
     public static final RegistryObject<SoundEvent> DESERT_EAGLE = register("item.deserteagle.fire");
@@ -37,6 +38,9 @@ public class ArsenalSounds
     public static final RegistryObject<SoundEvent> VECTOR_SUPPRESSED = register("item.vector.suppressed");
     public static final RegistryObject<SoundEvent> SCARH = register("item.scarh.fire");
     public static final RegistryObject<SoundEvent> P_NINETY = register("item.p90.fire");
+
+    // ===== MISCELLANEOUS SOUNDS ===== //
+    public static final RegistryObject<SoundEvent> SWITCH_FIRE_MODE = register("item.switch_fire_mode");
 
     /**
      * Helper method used to register sounds

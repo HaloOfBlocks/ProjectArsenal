@@ -50,6 +50,7 @@ public class ArsenalSoundDefinitionsGenerator extends SoundDefinitionsProvider
         // ===== ENCHANTED FIRE ===== //
 
         // ===== MISCELLANEOUS ===== //
+        addSound(ArsenalSounds.SWITCH_FIRE_MODE.get(), "subtitle.projectarsenal.switch_fire_mode", "item/switch_fire_mode");
     }
 
     /**

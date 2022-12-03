@@ -4,8 +4,10 @@ import haloofblocks.projectarsenal.ProjectArsenal;
 import haloofblocks.projectarsenal.client.KeyBindings;
 import haloofblocks.projectarsenal.common.FireMode;
 import haloofblocks.projectarsenal.common.item.ArsenalGunItem;
+import haloofblocks.projectarsenal.core.registry.ArsenalSounds;
 import haloofblocks.projectarsenal.network.PacketHandler;
 import haloofblocks.projectarsenal.network.message.MessageSelectFireMode;
+import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.InputEvent;
@@ -20,11 +22,15 @@ import org.lwjgl.glfw.GLFW;
 @Mod.EventBusSubscriber(modid = ProjectArsenal.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE, value = Dist.CLIENT)
 public class ClientFireModeSelector
 {
+    private static AbstractClientPlayer player;
     private static ItemStack stack;
 
     @SubscribeEvent
     public static void onKeyInputEvent(InputEvent.Key event)
     {
+        if (player == null)
+            return;
+
         if (stack == null)
             return;
 
@@ -41,12 +47,16 @@ public class ClientFireModeSelector
 
             // Change the fire mode through client to server message
             PacketHandler.getPlayChannel().sendToServer(new MessageSelectFireMode(next));
+
+            // Play sound effect when fire mode is switched
+            player.playSound(ArsenalSounds.SWITCH_FIRE_MODE.get());
         }
     }
 
     @SubscribeEvent
     public static void onRenderArmEvent(RenderArmEvent event)
     {
+        player = event.getPlayer();
         stack = event.getPlayer().getMainHandItem();
     }
 }
