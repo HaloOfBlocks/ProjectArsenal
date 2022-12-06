@@ -8,6 +8,7 @@ import haloofblocks.projectarsenal.config.Config;
 import net.minecraft.ChatFormatting;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
@@ -92,7 +93,7 @@ public class ArsenalGunItem extends GunItem
         }
     }
 
-    private Component fireModeComponent(ItemStack stack)
+    public MutableComponent fireModeComponent(ItemStack stack)
     {
         String fireMode = null;
 

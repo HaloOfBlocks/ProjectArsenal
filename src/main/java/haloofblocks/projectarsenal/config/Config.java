@@ -31,6 +31,7 @@ public class Config
     public static class Client
     {
         public final GunTooltipInfo gunTooltipInfo;
+        public final HudOverlay hudOverlay;
         public final ForgeConfigSpec.BooleanValue enableGunEnchantmentGlint;
 
         public Client(ForgeConfigSpec.Builder builder)
@@ -38,6 +39,8 @@ public class Config
             builder.push("client");
             {
                 this.gunTooltipInfo = new GunTooltipInfo(builder);
+
+                this.hudOverlay = new HudOverlay(builder);
 
                 this.enableGunEnchantmentGlint = builder
                         .comment("If true, renders enchanted guns from Project Arsenal with the purple enchantment glint. True by default.")
@@ -77,6 +80,26 @@ public class Config
                     this.showNonDyeable = builder
                             .comment("If true, shows a tooltip on guns that are not dyeable. True by default.")
                             .define("showNonDyeable", true);
+                }
+                builder.pop();
+            }
+        }
+
+        public static class HudOverlay
+        {
+            public final ForgeConfigSpec.BooleanValue showHudOverlay;
+            public final ForgeConfigSpec.EnumValue<haloofblocks.projectarsenal.client.event.HudOverlay.OverlayPositions> overlayPosition;
+
+            public HudOverlay(ForgeConfigSpec.Builder builder)
+            {
+                builder.push("hud_overlay");
+                {
+                    this.showHudOverlay = builder
+                            .comment("If true, shows HUD overlay with ammo counter and selected fire mode. True by default.")
+                            .define("showHudOverlay", true);
+                    this.overlayPosition = builder
+                            .comment("Position of the HUD overlay on the screen. Currently placements of the overlay are only supported on the right side of the screen.")
+                            .defineEnum("overlayPosition", haloofblocks.projectarsenal.client.event.HudOverlay.OverlayPositions.RIGHT_BOTTOM);
                 }
                 builder.pop();
             }
